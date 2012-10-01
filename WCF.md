@@ -1,4 +1,4 @@
 # WCF #
 -----------------------------------------------------------
 
--> Sessions and Instancing.
+## Sessions and Instancing ##
