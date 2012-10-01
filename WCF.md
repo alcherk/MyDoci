@@ -5,6 +5,6 @@
 
 *PerCall* - instance per call (default value). Allways for *basicHttpBinding*
 
-*PerSession* - instance на каждого клиента, живет в памяти некоторое время (10 минут по дефолту)
-	Завершается по команде от клиента или по timeout. Если по timeout, при следующем обращении
-	клиенту отдаст *CommunicationObjectFaultedException*
+*PerSession* - instance per client, lives in memory some time (10 mins by default)
+	Closed by client termination call or timeout. If there is a timeout, next client
+	call will receive *CommunicationObjectFaultedException*
