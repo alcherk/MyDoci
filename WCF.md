@@ -8,3 +8,4 @@
 *PerSession* - instance per client, lives in memory some time (10 mins by default)
 	Closed by client termination call or timeout. If there is a timeout, next client
 	call will receive *CommunicationObjectFaultedException*
+Вот сука :)
